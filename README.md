@@ -27,9 +27,9 @@ Based on the best strategy returns with training window size 6 month, either inc
 
 
 
-![1_stats](images\1_stats.PNG)
+![1_stats](images/1_stats.PNG)
 
-![1_result](images\1_result.png)
+![1_result](images/1_result.jpeg)
 
 
 
@@ -39,9 +39,9 @@ What impact resulted from increasing or decreasing either or both of the SMA win
 
 Increasing the size of fast SMA window from 4 days to 32 days would lower the trading algorithm's performance.
 
-![2_stats](images\2_stats.PNG)
+![2_stats](images/2_stats.PNG)
 
-![2_results](images\2_results.png)
+![2_results](images/2_results.jpeg)
 
 
 
@@ -49,17 +49,17 @@ Increasing the size of fast SMA window from 4 days to 32 days would lower the tr
 
 The trading algorithm's performance is not as good as actual returns until early in 2020; it performs well after that.
 
-![3_stats](images\3_stats.PNG)
+![3_stats](images/3_stats.PNG)
 
-![3_results](images\3_results.png)
+![3_results](images/3_results.jpeg)
 
 ### 3. Evaluate a New Machine Learning Classifier: `LogisticRegression`
 
 Logistic regression classifier performs slightly better than actual returns in 2016; however, it drops steeply at the end of 2016, and underperforms for a long period. At the start of 2020, it catches up and performs slightly better than the actual returns again.
 
-![alternative_stats](images\alternative_stats.PNG)
+![alternative_stats](images/alternative_stats.PNG)
 
-![alternative_results](images\alternative_results.png)
+![alternative_results](images/alternative_results.jpeg)
 
 
 
