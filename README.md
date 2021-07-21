@@ -4,32 +4,30 @@ In this Challenge, you’ll assume the role of a financial advisor at one of the
 
 The speed of these transactions gave your firm a competitive advantage early on. But, people still need to specifically program these systems, which limits their ability to adapt to new data. You’re thus planning to improve the existing algorithmic trading systems and maintain the firm’s competitive advantage in the market. To do so, you’ll enhance the existing trading signals with machine learning algorithms that can adapt to new data.
 
-
-
-
 ## Conclusion
 
 #### 1. Establish a Baseline Performance
 
 At the start, actual returns and strategy returns looks well matched; however, strategy returns outperforms the actual one at the end of 2019 and keep its leading position in the following years.
 
-![0_stats](images\0_stats.PNG)
+![0_stats](images/0_stats.PNG)
 
-![0_result](images\0_result.png)
+![0_result](images/0_result.jpeg)
+
+
+
 
 #### 2. Tune the Baseline Trading Algorithm
 
 ##### 2.1. Tune the training algorithm by adjusting the size of the training dataset.
 
 What impact resulted from increasing or decreasing the training window? 
-
 Based on the best strategy returns with training window size 6 month, either increasing or decreasing the size of the training dataset from 6 month would lower the performance.
-
-
 
 ![1_stats](images/1_stats.PNG)
 
 ![1_result](images/1_result.jpeg)
+
 
 
 
@@ -45,17 +43,23 @@ Increasing the size of fast SMA window from 4 days to 32 days would lower the tr
 
 
 
+
 ##### 2.3. Choose the set of parameters that best improved the trading algorithm returns.
 
 The trading algorithm's performance is not as good as actual returns until early in 2020; it performs well after that.
+
 
 ![3_stats](images/3_stats.PNG)
 
 ![3_results](images/3_results.jpeg)
 
+
+
+
 ### 3. Evaluate a New Machine Learning Classifier: `LogisticRegression`
 
 Logistic regression classifier performs slightly better than actual returns in 2016; however, it drops steeply at the end of 2016, and underperforms for a long period. At the start of 2020, it catches up and performs slightly better than the actual returns again.
+
 
 ![alternative_stats](images/alternative_stats.PNG)
 
